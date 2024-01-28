@@ -17,6 +17,7 @@
 		0337F0072B624B1C0072AAA3 /* ViewsTestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0337F0062B624B1C0072AAA3 /* ViewsTestFile.swift */; };
 		C98492442B662B8B0013BE72 /* FavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98492432B662B8B0013BE72 /* FavView.swift */; };
 		C98492462B662C4B0013BE72 /* FavRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98492452B662C4B0013BE72 /* FavRow.swift */; };
+		C98492482B6649950013BE72 /* CommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98492472B6649950013BE72 /* CommentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		0337F0062B624B1C0072AAA3 /* ViewsTestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsTestFile.swift; sourceTree = "<group>"; };
 		C98492432B662B8B0013BE72 /* FavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavView.swift; sourceTree = "<group>"; };
 		C98492452B662C4B0013BE72 /* FavRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavRow.swift; sourceTree = "<group>"; };
+		C98492472B6649950013BE72 /* CommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			children = (
 				0337F0062B624B1C0072AAA3 /* ViewsTestFile.swift */,
 				C98492432B662B8B0013BE72 /* FavView.swift */,
+				C98492472B6649950013BE72 /* CommentView.swift */,
 				C98492452B662C4B0013BE72 /* FavRow.swift */,
 			);
 			path = Views;
@@ -203,6 +206,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C98492482B6649950013BE72 /* CommentView.swift in Sources */,
 				C98492442B662B8B0013BE72 /* FavView.swift in Sources */,
 				0337F0012B624A790072AAA3 /* ModelTestFile.swift in Sources */,
 				0337F0032B624AFF0072AAA3 /* ComponentsTestFile.swift in Sources */,
