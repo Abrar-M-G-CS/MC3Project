@@ -15,6 +15,8 @@
 		0337F0032B624AFF0072AAA3 /* ComponentsTestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0337F0022B624AFF0072AAA3 /* ComponentsTestFile.swift */; };
 		0337F0052B624B0A0072AAA3 /* ViewModelTestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0337F0042B624B0A0072AAA3 /* ViewModelTestFile.swift */; };
 		0337F0072B624B1C0072AAA3 /* ViewsTestFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0337F0062B624B1C0072AAA3 /* ViewsTestFile.swift */; };
+		C98492442B662B8B0013BE72 /* FavView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98492432B662B8B0013BE72 /* FavView.swift */; };
+		C98492462B662C4B0013BE72 /* FavRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98492452B662C4B0013BE72 /* FavRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		0337F0022B624AFF0072AAA3 /* ComponentsTestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsTestFile.swift; sourceTree = "<group>"; };
 		0337F0042B624B0A0072AAA3 /* ViewModelTestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelTestFile.swift; sourceTree = "<group>"; };
 		0337F0062B624B1C0072AAA3 /* ViewsTestFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewsTestFile.swift; sourceTree = "<group>"; };
+		C98492432B662B8B0013BE72 /* FavView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavView.swift; sourceTree = "<group>"; };
+		C98492452B662C4B0013BE72 /* FavRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,8 @@
 			isa = PBXGroup;
 			children = (
 				0337F0062B624B1C0072AAA3 /* ViewsTestFile.swift */,
+				C98492432B662B8B0013BE72 /* FavView.swift */,
+				C98492452B662C4B0013BE72 /* FavRow.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -197,9 +203,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C98492442B662B8B0013BE72 /* FavView.swift in Sources */,
 				0337F0012B624A790072AAA3 /* ModelTestFile.swift in Sources */,
 				0337F0032B624AFF0072AAA3 /* ComponentsTestFile.swift in Sources */,
 				0337F0072B624B1C0072AAA3 /* ViewsTestFile.swift in Sources */,
+				C98492462B662C4B0013BE72 /* FavRow.swift in Sources */,
 				0337F0052B624B0A0072AAA3 /* ViewModelTestFile.swift in Sources */,
 				0337EFEF2B6245190072AAA3 /* ContentView.swift in Sources */,
 				0337EFED2B6245190072AAA3 /* MC3ProjectApp.swift in Sources */,
