@@ -6,3 +6,11 @@
 //
 
 import Foundation
+
+
+struct Comment: Identifiable {
+    var id = UUID()
+    var userName: String
+    var userImage: String
+    var text: String
+}

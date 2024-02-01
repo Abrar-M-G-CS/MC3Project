@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct DetailsView: View {
+    
     // State variables to track rating, selected tab, and like status
     @State private var currentRating = 4
     @State private var selectedTab: Tab = .overview
@@ -159,6 +160,7 @@ struct DetailsView: View {
                 } else if selectedTab == .comments {
                     // Placeholder for comments view
                     // Add your comments view here
+                    CommentView()
                 }
 
                 // Spacer for layout
@@ -169,6 +171,7 @@ struct DetailsView: View {
                 Button("احصل على الاتجاهات") {
                     // Placeholder action to get directions
                     // Add action to get directions
+                    
                 }
                 .padding()
                 .background(Color(red: 0.41, green: 0.16, blue: 0.38))

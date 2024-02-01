@@ -10,6 +10,7 @@ import SwiftUI
 
 struct FavView: View {
     
+    //Replace the array with feteched data from the places table
     @State private var favoritePlaces = ["نمق كافية | Namq Cafe", "فوم كافيه ", "شارك كافيه"]
     
     var body: some View {
